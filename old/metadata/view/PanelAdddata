@@ -1,0 +1,142 @@
+{
+    "type": "Ext.panel.Panel",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "designer|snapToGrid": 10,
+        "stateful": true,
+        "height": null,
+        "width": null,
+        "designer|userClassName": "PanelAdddata",
+        "designer|userAlias": "mypanel",
+        "layout": "absolute",
+        "title": null
+    },
+    "designerId": "9130ec9a-9b58-4fa2-8ea1-887527b8f4a3",
+    "cn": [
+        {
+            "type": "Ext.button.Button",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "layout|x": 70,
+                "layout|y": 10,
+                "height": 30,
+                "width": 90,
+                "designer|userClassName": "MyButton2",
+                "text": "Add"
+            },
+            "designerId": "ca4455c2-8c6a-41ca-a55d-a5c2de584236"
+        },
+        {
+            "type": "Ext.button.Button",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "layout|x": 200,
+                "layout|y": 10,
+                "height": 30,
+                "width": 90,
+                "designer|userClassName": "MyButton3",
+                "text": "Delete"
+            },
+            "designerId": "74ebdf80-6eff-4207-b1bc-613bcbb95af8"
+        },
+        {
+            "type": "Ext.grid.Panel",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "layout|x": 0,
+                "layout|y": 50,
+                "stateful": true,
+                "height": 350,
+                "designer|userClassName": "MyGridPanel",
+                "title": "My Grid Panel"
+            },
+            "designerId": "f36d3c38-e326-4fef-95a8-d9e91888634d",
+            "cn": [
+                {
+                    "type": "Ext.grid.column.Column",
+                    "reference": {
+                        "name": "columns",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "designer|userClassName": "MyColumn",
+                        "dataIndex": "string",
+                        "text": "String"
+                    },
+                    "designerId": "adfbd77c-058a-49fd-b348-98b55402839f"
+                },
+                {
+                    "type": "Ext.grid.column.Number",
+                    "reference": {
+                        "name": "columns",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "designer|userClassName": "MyNumberColumn",
+                        "dataIndex": "number",
+                        "text": "Number"
+                    },
+                    "designerId": "ca99e7b6-b854-4dc4-8c90-1aba1850424d"
+                },
+                {
+                    "type": "Ext.grid.column.Date",
+                    "reference": {
+                        "name": "columns",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "designer|userClassName": "MyDateColumn",
+                        "dataIndex": "date",
+                        "text": "Date"
+                    },
+                    "designerId": "947f377d-ccb4-4005-921c-1dcb4fb50e17"
+                },
+                {
+                    "type": "Ext.grid.column.Boolean",
+                    "reference": {
+                        "name": "columns",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "designer|userClassName": "MyBooleanColumn",
+                        "dataIndex": "bool",
+                        "text": "Boolean"
+                    },
+                    "designerId": "eca31510-8d7d-4be5-968c-70eee2bb6ba6"
+                },
+                {
+                    "type": "Ext.grid.View",
+                    "reference": {
+                        "name": "viewConfig",
+                        "type": "object"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "designer|userClassName": "MyGridView"
+                    },
+                    "designerId": "9bc61ec2-4f36-43ad-aa06-1af63ffe923a"
+                }
+            ]
+        }
+    ]
+}

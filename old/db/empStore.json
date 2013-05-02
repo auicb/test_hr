@@ -1,0 +1,8 @@
+﻿{"data": {
+	"fields":["id","firstName","middleName","lastName","empId","photograph","userName","password","status","otherId","driverNumber","driverExpiry","ssnNumber","sinNumber","gender","maritalStatus","nationality","dateBirth","nickName","militaryService","dateAdd","dateUpdate"],
+	"records":[
+	["1","นางพรชนก","","ขันใส","0001","","","","","","","","","","","","","","","","",""],
+	["2","นายคันศร","","คมภักดี","0002","","","","","","","","","","","","","","","","",""]
+	]
+	}
+ }

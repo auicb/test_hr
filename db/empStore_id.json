@@ -1,0 +1,53 @@
+﻿{"data": {
+	"records":[
+	{
+		"id": "1",
+		"firstName": "นางพรชนก",
+		"middleName": "AA",
+		"lastName": "ขันใส",
+		"empId": "0001",
+		"photograph": "AA",
+		"userName": "AA",
+		"password": "AA",
+		"status": "AA",
+		"otherId": "AA",
+		"driverNumber": "AA",
+		"driverExpiry": "2/23/2013",
+		"ssnNumber": "AA",
+		"sinNumber": "AA",
+		"gender": "AA",
+		"maritalStatus": "AA",
+		"nationality": "AA",
+		"dateBirth": "2/23/2013",
+		"nickName": "AA",
+		"militaryService": "AA",
+		"dateAdd": "2/23/2013",
+		"dateUpdate": "2/23/2013"
+	},
+	{
+		"id": "2",
+		"firstName": "นายคันศร",
+		"middleName": "AA",
+		"lastName": "คมภักดี",
+		"empId": "0002",
+		"photograph": "AA",
+		"userName": "AA",
+		"password": "AA",
+		"status": "AA",
+		"otherId": "AA",
+		"driverNumber": "AA",
+		"driverExpiry": "2/23/2013",
+		"ssnNumber": "AA",
+		"sinNumber": "AA",
+		"gender": "AA",
+		"maritalStatus": "AA",
+		"nationality": "AA",
+		"dateBirth": "2/23/2013",
+		"nickName": "AA",
+		"militaryService": "AA",
+		"dateAdd": "2/23/2013",
+		"dateUpdate": "2/23/2013"
+	}
+	]
+	}
+ }

@@ -1,0 +1,45 @@
+{
+    "type": "jsonstore",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "autoLoad": true,
+        "model": "mdEmployee",
+        "storeId": "MyJsonStore",
+        "designer|userClassName": "EmpStore"
+    },
+    "designerId": "5bd78290-d967-4aa3-b31e-575ecd5ace7b",
+    "cn": [
+        {
+            "type": "Ext.data.proxy.Ajax",
+            "reference": {
+                "name": "proxy",
+                "type": "object"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "designer|userClassName": "MyAjaxProxy",
+                "url": "http://localhost/train-au/test_hr/db/empStore.json"
+            },
+            "designerId": "65d34c03-8dce-4c79-b8bd-5523ace09df6",
+            "cn": [
+                {
+                    "type": "Ext.data.reader.Json",
+                    "reference": {
+                        "name": "reader",
+                        "type": "object"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "root": "data.records",
+                        "designer|userClassName": "MyJsonReader"
+                    },
+                    "designerId": "425777cc-d3a7-49b6-b06d-d20acb5c946c"
+                }
+            ]
+        }
+    ]
+}

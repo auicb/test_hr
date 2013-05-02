@@ -1,0 +1,96 @@
+{
+    "name": "test_hr",
+    "settings": {},
+    "xdsVersion": "2.2.1",
+    "xdsBuild": 951,
+    "schemaVersion": 1,
+    "upgradeVersion": 210000000500,
+    "framework": "ext42",
+    "topInstanceFileMap": {
+        "d2c14d8c-5105-45df-83d7-89bce3313202": {
+            "paths": [
+                "metadata/view/PanelSearch",
+                "app/view/override/PanelSearch.js",
+                "app/view/PanelSearch.js"
+            ],
+            "className": "PanelSearch"
+        },
+        "c651df90-ec62-4eb0-a4b4-9cd6c27d7932": {
+            "paths": [
+                "metadata/resource/Library"
+            ],
+            "className": "Library"
+        },
+        "9130ec9a-9b58-4fa2-8ea1-887527b8f4a3": {
+            "paths": [
+                "metadata/view/PanelAdddata",
+                "app/view/override/PanelAdddata.js",
+                "app/view/PanelAdddata.js"
+            ],
+            "className": "PanelAdddata"
+        },
+        "432065b7-5ecd-4df9-b470-66032434d4de": {
+            "paths": [
+                "metadata/view/MyViewport",
+                "app/view/override/MyViewport.js",
+                "app/view/MyViewport.js",
+                "app/view/Viewport.js"
+            ],
+            "className": "MyViewport"
+        },
+        "9cd5c662-c462-47c2-b02f-f5fdcaf8bc9d": {
+            "paths": [
+                "metadata/view/MyPanel2",
+                "app/view/override/MyPanel2.js",
+                "app/view/MyPanel2.js"
+            ],
+            "className": "MyPanel2"
+        },
+        "5bd78290-d967-4aa3-b31e-575ecd5ace7b": {
+            "paths": [
+                "metadata/store/EmpStore",
+                "app/store/override/EmpStore.js",
+                "app/store/EmpStore.js"
+            ],
+            "className": "EmpStore"
+        },
+        "f413509b-4b17-48b1-8747-7cc966c69ffa": {
+            "paths": [
+                "metadata/model/mdEmployee",
+                "app/model/override/mdEmployee.js",
+                "app/model/mdEmployee.js"
+            ],
+            "className": "mdEmployee"
+        },
+        "0ce7c3ea-2871-41a7-a00d-aa3cbcb3b427": {
+            "paths": [
+                "metadata/model/mdEmployeeAll",
+                "app/model/override/mdEmployeeAll.js",
+                "app/model/mdEmployeeAll.js"
+            ],
+            "className": "mdEmployeeAll"
+        }
+    },
+    "viewOrderMap": {
+        "view": [
+            "d2c14d8c-5105-45df-83d7-89bce3313202",
+            "9130ec9a-9b58-4fa2-8ea1-887527b8f4a3",
+            "432065b7-5ecd-4df9-b470-66032434d4de",
+            "9cd5c662-c462-47c2-b02f-f5fdcaf8bc9d"
+        ],
+        "store": [
+            "5bd78290-d967-4aa3-b31e-575ecd5ace7b"
+        ],
+        "controller": [],
+        "model": [
+            "f413509b-4b17-48b1-8747-7cc966c69ffa",
+            "0ce7c3ea-2871-41a7-a00d-aa3cbcb3b427"
+        ],
+        "resource": [
+            "c651df90-ec62-4eb0-a4b4-9cd6c27d7932"
+        ],
+        "app": [
+            "application"
+        ]
+    }
+}

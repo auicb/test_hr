@@ -1,0 +1,22 @@
+{
+    "type": "Ext.app.Application",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "models": [
+            "mdEmployee",
+            "mdEmployeeAll"
+        ],
+        "stores": [
+            "EmpStore"
+        ],
+        "views": [
+            "MyPanel2"
+        ],
+        "name": "MyApp"
+    },
+    "designerId": "application"
+}
